@@ -14,9 +14,9 @@ public:
             int k = n - 1;
             while (j < k) {
                 int sum = nums[i] + nums[j] + nums[k];
-                if (sum < 0) 
+                if (sum < 0)
                     j++;
-                else if (sum > 0) 
+                else if (sum > 0)
                     k--;
                 else {
                     vector<int> temp = {nums[i], nums[j], nums[k]};
